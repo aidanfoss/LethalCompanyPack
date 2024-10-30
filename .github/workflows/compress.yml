@@ -44,13 +44,23 @@ jobs:
     steps:
       # Use checkout to publish the files in your repo
       - uses: actions/checkout@v4
+
+      # Extract version from manifest.json and set as environment variable
+      - name: Get version from manifest.json
+        id: get_version
+        run: |
+          VERSION=$(jq -r '.version_number' manifest.json)
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
+      #publish to thunderstore
+      - name: Publish to Thunderstore
       - uses: GreenTF/upload-thunderstore-package@v4.3
         with:
           namespace: EGK # the thunderstore 'team' to publish under
           description: Automatic upload of modpack from github auto 
           token: ${{ secrets.THUNDERSTORE_TOKEN }}
           name: epicGamerPak # the name of the package
-          version: $(jq -r '.version_number' manifest.json) # Use manifests version as package version
+          version: ${{ env.VERSION }} # Use manifests version as package version
           community: Northstar
           repo: northstar.thunderstore.io
           categories: | # <-- notice this pipe character
