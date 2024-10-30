@@ -53,7 +53,6 @@ jobs:
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
       #publish to thunderstore
-      - name: Publish to Thunderstore
       - uses: GreenTF/upload-thunderstore-package@v4.3
         with:
           namespace: EGK # the thunderstore 'team' to publish under
