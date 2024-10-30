@@ -60,7 +60,7 @@ jobs:
           token: ${{ secrets.THUNDERSTORE_TOKEN }}
           name: epicGamerPak # the name of the package
           version: ${{ env.VERSION }} # Use manifests version as package version
-          community: Lethal Company
+          community: LethalCompany
           repo: thunderstore.io
           categories: | # <-- notice this pipe character
             modpacks
