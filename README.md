@@ -30,3 +30,9 @@ https://thunderstore.io/c/lethal-company/p/EGK/epicGamerPak/
 ![image](https://github.com/user-attachments/assets/5d5c31c3-0b2e-46e3-92a1-0f0e0ac02390)
 
 ### 5: Ping me on discord (it doesnt upload itself)
+
+# How to upload to Thunderstore
+
+https://thunderstore.io/settings/teams/EGK/
+
+https://thunderstore.io/c/lethal-company/create/
