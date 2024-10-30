@@ -15,8 +15,8 @@ jobs:
 
       - name: Zip Repository
         run: |
-          zip -r epicGamerPak.zip .
-          mv epicGamerPak.zip ./epicGamerPak.zip
+          zip -r newCompress.zip .
+          mv newCompress.zip ./epicGamerPak.zip
 
       - name: Add and Commit Zip
         run: |
