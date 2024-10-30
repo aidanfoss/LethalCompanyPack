@@ -1,15 +1,20 @@
+Hello!
+I made this repo to help with managing a modpack for friends.
+It was also a great way to learn workflows for github.
 
-# Funny Modpack
+## Every time a new merge or push happens
 
-hi friends
+1: The manifests version automatically iterates up by one
 
-i made this for my friends, so that I can update their mods for them :)
+2: The entire repo is compressed, excluding git information, into a zip thats pre-formatted for upload
+
+# Links
 
 https://github.com/aidanfoss/LethalCompanyPack
 
 https://thunderstore.io/c/lethal-company/p/EGK/epicGamerPak/ 
 
-
+https://thunderstore.io/settings/teams/EGK/
 
 # How to add mods
 
