@@ -1,6 +1,6 @@
 {
-    "name": "quantumPack",
-    "version_number": "2.0.0",
+    "name": "epicGamerPak",
+    "version_number": "1.0.0",
     "website_url": "",
     "description": "Modpack I maintain for my friends!",
     "dependencies": [
@@ -36,7 +36,6 @@
 "omaygad-FreeBird_Jester_Enhanced-1.0.2",
 "Owen3H-IntroTweaks-1.5.0",
 "Hardy-LCMaxSoundsFix-1.1.0",
-"Sligili-HDLethalCompany-1.5.6",
 "Zingar-SecretLabs-3.3.7",
 "TheDeadSnake-Touchscreen-1.1.2",
 "Zaggy1024-TwoRadarMaps-1.3.7",
@@ -45,6 +44,8 @@
 "FutureSavior-Hold_Scan_Button-1.1.1",
 "Bobbie-UniTask-2.5.0",
 "Lordfirespeed-OdinSerializer-2022.11.9",
+"mrgrm7-LethalCasino-1.1.2",
+"Alecksword-CompanyIssuedFixes-1.10.0",
 "Rocksnotch-ShovelFix-1.1.0"
     ]
 }
