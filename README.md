@@ -29,9 +29,9 @@ https://thunderstore.io/c/lethal-company/p/EGK/epicGamerPak/
 
 ![image](https://github.com/user-attachments/assets/5d5c31c3-0b2e-46e3-92a1-0f0e0ac02390)
 
-### 5: Ping me on discord (it doesnt upload itself)
+### 5: Ping me on discord / update it yourself
 
-# How to upload to Thunderstore
+# How to upload/update to Thunderstore
 
 Go here to check if you are in the Thunderstore Team. If you aren't, ask me to invite you. https://thunderstore.io/settings/teams/EGK/
 
