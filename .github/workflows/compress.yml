@@ -27,7 +27,7 @@ jobs:
 
       - name: Zip Repository
         run: |
-          zip -r repo_archive.zip .
+          zip -r repo_archive.zip . -x ".git/*" ".github/*" "epicGamerPak.zip"
           mv repo_archive.zip ./epicGamerPak.zip
 
       - name: Commit and Push Zip
