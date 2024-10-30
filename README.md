@@ -25,12 +25,8 @@ https://thunderstore.io/c/lethal-company/p/EGK/epicGamerPak/
 
 ![image](https://github.com/user-attachments/assets/0a80c5f5-5eba-4d9f-a90b-3dd971cd1f00)
 
-### 4: Add it to the end of the manifest.json (MAKE SURE YOU ADD COMMAS, MAINTAIN THE FORMATTING)
+### 4: Add it to the end of the manifest.json, and preserve the comma formatting. (DO NOT EDIT THE VERSION NUMBER) 
 
 ![image](https://github.com/user-attachments/assets/5d5c31c3-0b2e-46e3-92a1-0f0e0ac02390)
 
-### 5: Update the manifests version at the top
-
-![image](https://github.com/user-attachments/assets/7919e6e6-4839-4f99-97fa-fa16bac10208)
-
-### 6: Ping me on discord (it doesnt upload itself)
+### 5: Ping me on discord (it doesnt upload itself)
