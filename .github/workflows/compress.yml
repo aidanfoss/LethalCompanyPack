@@ -15,18 +15,15 @@ jobs:
 
       - name: Zip Repository
         run: |
-          zip -r newCompress.zip .
-          mv newCompress.zip ./epicGamerPak.zip
+          zip -r repo_archive.zip .
+          mv repo_archive.zip ./compressed_repo.zip
 
-      - name: Add and Commit Zip
+      - name: Commit and Push Zip
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add epicGamerPak.zip
-          git commit -m "Automated repository compression"
-
-      - name: Push Changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          git add compressed_repo.zip
+          git commit -m "Automated repository compression" || echo "No changes to commit"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
