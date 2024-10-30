@@ -24,6 +24,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add compressed_repo.zip
           git commit -m "Automated repository compression" || echo "No changes to commit"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main
