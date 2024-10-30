@@ -33,6 +33,9 @@ https://thunderstore.io/c/lethal-company/p/EGK/epicGamerPak/
 
 # How to upload to Thunderstore
 
-https://thunderstore.io/settings/teams/EGK/
+Go here to check if you are in the Thunderstore Team. If you aren't, ask me to invite you. https://thunderstore.io/settings/teams/EGK/
 
-https://thunderstore.io/c/lethal-company/create/
+Once you are in the team, you can go here to upload the modpack: https://thunderstore.io/c/lethal-company/create/
+
+![image](https://github.com/user-attachments/assets/daaf03de-01a2-4850-afe5-7180208d8e12)
+
