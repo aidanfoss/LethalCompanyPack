@@ -1,0 +1,32 @@
+name: Compress Repository
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  compress:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Zip Repository
+        run: |
+          zip -r epicGamerPak.zip .
+          mv epicGamerPak.zip ./epicGamerPak.zip
+
+      - name: Add and Commit Zip
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add epicGamerPak.zip
+          git commit -m "Automated repository compression"
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
