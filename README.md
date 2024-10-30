@@ -6,7 +6,7 @@ It was also a great way to learn workflows for github.
 
 1: The manifests version automatically iterates up by one
 
-2: The entire repo is compressed, excluding git information, into a zip thats pre-formatted for upload
+2: Publishes it automatically to the thunderstore page
 
 # Links
 
