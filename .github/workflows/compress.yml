@@ -13,6 +13,18 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
+      - name: Increment Version Number
+        run: |
+          # Read and increment version number in manifest.json
+          version=$(jq -r '.version_number' manifest.json)
+          IFS='.' read -r major minor patch <<< "$version"
+          patch=$((patch + 1))
+          new_version="$major.$minor.$patch"
+          jq --arg new_version "$new_version" '.version_number = $new_version' manifest.json > temp.json && mv temp.json manifest.json
+          
+          # Display updated version for confirmation
+          cat manifest.json
+
       - name: Zip Repository
         run: |
           zip -r repo_archive.zip .
