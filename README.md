@@ -34,13 +34,5 @@ https://thunderstore.io/settings/teams/EGK/
 
 ![image](https://github.com/user-attachments/assets/5d5c31c3-0b2e-46e3-92a1-0f0e0ac02390)
 
-### 5: Ping me on discord / update it yourself
-
-# How to upload/update to Thunderstore
-
-Go here to check if you are in the Thunderstore Team. If you aren't, ask me to invite you. https://thunderstore.io/settings/teams/EGK/
-
-Once you are in the team, you can go here to upload the modpack: https://thunderstore.io/c/lethal-company/create/
-
-![image](https://github.com/user-attachments/assets/daaf03de-01a2-4850-afe5-7180208d8e12)
+### 5: Wait about 10 minutes, and the modpack will update on thunderstore as well
 
